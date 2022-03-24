@@ -16,7 +16,7 @@ class AdminLteAsset extends AssetBundle
     ];
 
     public $depends = [
-        'hail812\adminlte3\assets\BaseAsset',
-        'hail812\adminlte3\assets\PluginAsset'
+        'karatishka\adminlte3\assets\BaseAsset',
+        'karatishka\adminlte3\assets\PluginAsset'
     ];
 }
