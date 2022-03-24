@@ -2,7 +2,7 @@
 namespace hail812\adminlte3\widgets;
 
 use yii\base\ErrorException;
-use yii\bootstrap4\Widget;
+use yii\bootstrap5\Widget;
 
 /**
  * Class Alert
@@ -85,7 +85,7 @@ class Alert extends Widget
             $head = '<h5>'.$iconHtml.' '.$this->title.'!</h5>';
         }
 
-        echo \yii\bootstrap4\Alert::widget([
+        echo \yii\bootstrap5\Alert::widget([
             'body' => $head.$this->body,
             'closeButton' => $this->closeButton,
             'options' => [
